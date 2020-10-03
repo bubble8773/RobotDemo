@@ -1,0 +1,1727 @@
+﻿Log file open, 10/03/20 17:04:29
+LogInit: Display: Running engine for game: SimpleRobotDemo_BP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.381402
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz, GPU: Intel(R) HD Graphics Family
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.03-11.34.29:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.03-11.34.29:585][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.03-11.34.29:586][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.03-11.34.29:588][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.03-11.34.29:588][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.03-11.34.29:589][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.03-11.34.29:590][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.03-11.34.29:590][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.03-11.34.29:590][  0]LogHAL: Display: Platform has ~ 12 GB [12811657216 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.03-11.34.29:590][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.03-11.34.29:590][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.03-11.34.29:590][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.03-11.34.29:591][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.03-11.34.29:592][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.03-11.34.29:593][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.03-11.34.29:593][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.03-11.34.29:593][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.03-11.34.29:593][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.03-11.34.29:593][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.03-11.34.29:593][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.03-11.34.29:593][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.03-11.34.29:593][  0]LogInit: Computer: DESKTOP-R9OUND7
+[2020.10.03-11.34.29:593][  0]LogInit: User: Nandita
+[2020.10.03-11.34.29:593][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.10.03-11.34.29:593][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.03-11.34.29:593][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2020.10.03-11.34.29:593][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.03-11.34.29:593][  0]LogMemory: Process Physical Memory: 112.43 MB used, 112.43 MB peak
+[2020.10.03-11.34.29:593][  0]LogMemory: Process Virtual Memory: 94.82 MB used, 94.82 MB peak
+[2020.10.03-11.34.29:593][  0]LogMemory: Physical Memory: 3367.85 MB used,  8850.30 MB free, 12218.15 MB total
+[2020.10.03-11.34.29:593][  0]LogMemory: Virtual Memory: 5122.79 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.10.03-11.34.29:600][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.03-11.34.29:642][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.03-11.34.29:643][  0]LogInit: Using OS detected language (en-US).
+[2020.10.03-11.34.29:643][  0]LogInit: Using OS detected locale (en-IN).
+[2020.10.03-11.34.29:651][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.03-11.34.29:927][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.03-11.34.29:979][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.03-11.34.29:979][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.03-11.34.30:274][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.03-11.34.30:274][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.03-11.34.30:274][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.03-11.34.30:274][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.03-11.34.30:346][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M' (Feature Level 11_0)
+[2020.10.03-11.34.30:346][  0]LogD3D11RHI:       2009/0/6109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.03-11.34.30:355][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2020.10.03-11.34.30:355][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.03-11.34.30:359][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.03-11.34.30:359][  0]LogD3D11RHI:       0/0/6109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.03-11.34.30:359][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.03-11.34.30:400][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.03-11.34.30:400][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.03-11.34.30:400][  0]LogWindows: EnumDisplayDevices:
+[2020.10.03-11.34.30:400][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2020.10.03-11.34.30:401][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2020.10.03-11.34.30:401][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2020.10.03-11.34.30:401][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.03-11.34.30:402][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M
+[2020.10.03-11.34.30:402][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.03-11.34.30:402][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.03-11.34.30:402][  0]LogRHI: Texture pool is 1406 MB (70% of 2009 MB)
+[2020.10.03-11.34.30:453][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.10.03-11.34.30:455][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.03-11.34.30:455][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.03-11.34.30:483][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.10.03-11.34.31:015][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.03-11.34.31:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.03-11.34.31:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.03-11.34.31:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.03-11.34.31:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.03-11.34.31:111][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.03-11.34.31:124][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.03-11.34.31:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.03-11.34.31:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.03-11.34.31:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.03-11.34.31:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.03-11.34.31:216][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.03-11.34.31:216][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.03-11.34.31:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.03-11.34.31:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.03-11.34.31:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.03-11.34.31:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.03-11.34.31:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.03-11.34.31:291][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.03-11.34.31:291][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.03-11.34.31:302][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.03-11.34.31:383][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Intermediate/Shaders/WorkingDirectory/9112/).
+[2020.10.03-11.34.31:383][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nandita/AppData/Local/Temp/UnrealShaderWorkingDir/3904F4D64C61422F2A014581D557D6C0/'.
+[2020.10.03-11.34.31:384][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.03-11.34.31:384][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.03-11.34.31:384][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.03-11.34.32:739][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.03-11.34.32:825][  0]LogDerivedDataCache: Loaded boot cache 0.09s 76MB C:/Users/Nandita/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.03-11.34.32:825][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nandita/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.03-11.34.32:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.03-11.34.32:825][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.03-11.34.32:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.03-11.34.32:825][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.03-11.34.32:840][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.03-11.34.32:841][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.03-11.34.32:841][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.03-11.34.32:842][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nandita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.03-11.34.32:842][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.03-11.34.32:842][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.03-11.34.32:923][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.03-11.34.32:924][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.03-11.34.32:974][  0]LogAssetRegistry: FAssetRegistry took 0.0039 seconds to start up
+[2020.10.03-11.34.33:357][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.03-11.34.33:532][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.03-11.34.33:532][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.03-11.34.33:532][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.03-11.34.33:532][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.03-11.34.33:532][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.03-11.34.33:562][  0]LogNetVersion: SimpleRobotDemo_BP 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3713622887)
+[2020.10.03-11.34.34:978][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002528AC7D440), frame # 0
+[2020.10.03-11.34.34:978][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002528E79C400), frame # 0
+[2020.10.03-11.34.34:980][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002528E77B200), frame # 0
+[2020.10.03-11.34.35:092][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.103373 seconds
+[2020.10.03-11.34.35:101][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.03-11.34.35:101][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.03-11.34.35:101][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.03-11.34.35:606][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.03-11.34.35:612][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.03-11.34.35:731][  0]SourceControl: Source control is disabled
+[2020.10.03-11.34.35:731][  0]SourceControl: Source control is disabled
+[2020.10.03-11.34.35:736][  0]SourceControl: Source control is disabled
+[2020.10.03-11.34.35:741][  0]SourceControl: Source control is disabled
+[2020.10.03-11.34.35:751][  0]SourceControl: Source control is disabled
+[2020.10.03-11.34.36:082][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.03-11.34.36:109][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.03-11.34.36:109][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.03-11.34.36:178][  0]LogOcInput: OculusInput pre-init called
+[2020.10.03-11.34.36:191][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.03-11.34.36:191][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.03-11.34.36:276][  0]LogEngine: Initializing Engine...
+[2020.10.03-11.34.36:278][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.03-11.34.36:278][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.03-11.34.36:290][  0]LogGameplayTags: NetworkGameplayTagNodeIndexHash is e125c222
+[2020.10.03-11.34.36:290][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.011 s
+[2020.10.03-11.34.36:457][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.03-11.34.36:466][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.03-11.34.36:467][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025292201600), frame # 0
+[2020.10.03-11.34.36:467][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025292241580), frame # 0
+[2020.10.03-11.34.36:494][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-11.34.36:494][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-11.34.36:494][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-11.34.36:494][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-11.34.36:494][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-11.34.36:495][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-11.34.36:495][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-11.34.36:495][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-11.34.36:495][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-11.34.36:495][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-11.34.36:508][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-11.34.36:508][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-11.34.36:707][  0]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio)
+[2020.10.03-11.34.36:711][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-11.34.36:713][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-11.34.36:713][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-11.34.36:716][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-11.34.36:718][  0]LogInit: FAudioDevice initialized.
+[2020.10.03-11.34.36:719][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.03-11.34.37:521][  0]LogDerivedDataCache: Saved boot cache 0.80s 76MB C:/Users/Nandita/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.03-11.34.37:678][  0]LogInit: Texture streaming: Enabled
+[2020.10.03-11.34.37:708][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.03-11.34.37:708][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.03-11.34.37:712][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.03-11.34.37:802][  0]LogInit: Transaction tracking system initialized
+[2020.10.03-11.34.37:834][  0]BlueprintLog: New page: Editor Load
+[2020.10.03-11.34.37:967][  0]LocalizationService: Localization service is disabled
+[2020.10.03-11.34.38:338][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.03-11.34.38:339][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.03-11.34.38:339][  0]LogGameplayTags: NetworkGameplayTagNodeIndexHash is e125c222
+[2020.10.03-11.34.38:567][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/' took 0.01s
+[2020.10.03-11.34.39:106][  0]SourceControl: Source control is disabled
+[2020.10.03-11.34.39:106][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.192
+[2020.10.03-11.34.39:106][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.03-11.34.39:107][  0]LightingResults: New page: Lighting Build
+[2020.10.03-11.34.39:108][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-11.34.39:108][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.34.39:108][  0]MapCheck: New page: Map Check
+[2020.10.03-11.34.39:108][  0]LightingResults: New page: Lighting Build
+[2020.10.03-11.34.39:120][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025292201600), frame # 0
+[2020.10.03-11.34.39:120][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025292241580), frame # 0
+[2020.10.03-11.34.39:121][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.10.03-11.34.42:370][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.03-11.34.42:370][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002529A4A6400), frame # 0
+[2020.10.03-11.34.42:370][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025281D80E00), frame # 0
+[2020.10.03-11.34.42:399][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.03-11.34.42:426][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.10.03-11.34.42:426][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.03-11.34.42:427][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.34ms to complete.
+[2020.10.03-11.34.42:427][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.320
+[2020.10.03-11.34.42:429][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.515
+[2020.10.03-11.34.42:688][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.34.42:699][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.34.42:709][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.34.42:719][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.34.42:735][  0]LogCollectionManager: Loaded 0 collections in 0.002482 seconds
+[2020.10.03-11.34.42:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Collections/' took 0.00s
+[2020.10.03-11.34.42:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Developers/Nandita/Collections/' took 0.00s
+[2020.10.03-11.34.42:788][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Collections/' took 0.00s
+[2020.10.03-11.34.42:788][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 3427 classes and 821 folders.
+[2020.10.03-11.34.42:825][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.03-11.34.45:369][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.10.03-11.34.45:370][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.10.03-11.34.45:682][  0]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.03-11.34.45:686][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.03-11.34.45:721][  0]LogSlate: Took 0.029006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.03-11.34.46:037][  0]LogRenderer: Reallocating scene render targets to support 644x372 Format 10 NumSamples 1 (Frame:1).
+[2020.10.03-11.34.46:184][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.10.03-11.34.46:184][  0]LogLoad: (Engine Initialization) Total time: 19.27 seconds
+[2020.10.03-11.34.46:184][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.03-11.34.46:244][  0]LogAssetRegistry: Asset discovery search completed in 13.2707 seconds
+[2020.10.03-11.34.46:251][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.10.03-11.34.46:252][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.03-11.34.46:356][  0]LogSlate: Took 0.021949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.03-11.34.47:536][  4]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.03-11.37.04:182][469]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.37.05:320][469]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2020.10.03-11.37.07:128][469]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.37.07:661][469]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2020.10.03-11.37.08:152][469]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.03-11.37.08:555][470]LogSlate: Took 0.059284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.03-11.40.51:538][228]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.03-11.40.51:538][228]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.10.03-11.41.06:646][119]BlueprintLog: New page: Compile Robot
+[2020.10.03-11.41.06:748][119]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.10.03-11.41.06:922][119]LogSlate: Took 0.026160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.03-11.41.08:173][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.41.08:318][203]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Robot522B84AF4CD4B9A0369AC4BF8EA16240.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.41.08:338][203]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.41.08:338][203]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.41.15:212][697]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-11.41.15:235][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-11.41.15:277][697]PIE: New page: PIE session: ThirdPersonExampleMap (03-Oct-2020, 10:41:15 pm)
+[2020.10.03-11.41.15:279][697]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.03-11.41.15:280][697]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.03-11.41.15:280][697]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.41.15:301][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020793s)
+[2020.10.03-11.41.15:304][697]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.03-11.41.15:305][697]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000253114C8A00), frame # 2697
+[2020.10.03-11.41.15:305][697]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002530B11AFC0), frame # 2697
+[2020.10.03-11.41.15:305][697]LogPlayLevel: PIE: World Init took: (0.003657s)
+[2020.10.03-11.41.15:305][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024704s)
+[2020.10.03-11.41.15:361][697]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.10.03-11.41.15:362][697]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-11.41.15:362][697]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-11.41.15:362][697]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-11.41.15:362][697]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-11.41.15:362][697]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-11.41.15:362][697]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-11.41.15:362][697]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-11.41.15:362][697]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-11.41.15:363][697]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-11.41.15:363][697]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-11.41.15:366][697]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-11.41.15:366][697]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-11.41.15:401][697]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio)
+[2020.10.03-11.41.15:401][697]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-11.41.15:402][697]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-11.41.15:402][697]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-11.41.15:402][697]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-11.41.15:422][697]LogInit: FAudioDevice initialized.
+[2020.10.03-11.41.15:463][697]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.03-11.41.15:466][697]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.03-17.11.15
+[2020.10.03-11.41.15:466][697]LogWorld: Bringing up level for play took: 0.002425
+[2020.10.03-11.41.15:466][697]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.10.03-11.41.15:498][697]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.10.03-11.41.15:499][697]PIE: Server logged in
+[2020.10.03-11.41.15:500][697]PIE: Play in editor total start time 0.266 seconds.
+[2020.10.03-11.41.37:178][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.41.37:178][342]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.41.37:179][342]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-11.41.37:179][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.41.37:186][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-11.41.37:192][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.41.37:237][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.41.37:279][342]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002530B11AFC0), frame # 4342
+[2020.10.03-11.41.37:279][342]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000253114C8A00), frame # 4342
+[2020.10.03-11.41.37:307][342]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
+[2020.10.03-11.41.37:354][343]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.10.03-11.42.36:174][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.42.36:225][998]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Robot5FB8797F488715758B34C3875FF400EF.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.42.36:242][998]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.42.36:242][998]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.42.50:970][965]BlueprintLog: New page: Compile Becan
+[2020.10.03-11.42.51:081][965]LogUObjectHash: Compacting FUObjectHashTables data took   6.34ms
+[2020.10.03-11.42.56:346][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.42.56:397][291]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan1AC9509D4E19131B2FB31093A5EA90F0.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.42.56:421][291]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.42.56:421][291]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.42.57:425][351]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2020.10.03-11.42.57:486][351]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMap189869C341FF3E1417E24ABF7E93B500.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.10.03-11.42.57:946][351]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMap_BuiltDataD2A2DD4A4C055576DA18878BA1A7D5B6.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.10.03-11.42.57:968][351]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.03-11.42.57:968][351]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.10.03-11.42.57:968][351]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.10.03-11.43.03:263][728]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-11.43.03:286][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-11.43.03:286][728]PIE: New page: PIE session: ThirdPersonExampleMap (03-Oct-2020, 10:43:03 pm)
+[2020.10.03-11.43.03:327][728]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.43.03:345][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018240s)
+[2020.10.03-11.43.03:348][728]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.03-11.43.03:348][728]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000252B912D000), frame # 9728
+[2020.10.03-11.43.03:348][728]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002530A11E340), frame # 9728
+[2020.10.03-11.43.03:349][728]LogPlayLevel: PIE: World Init took: (0.003761s)
+[2020.10.03-11.43.03:349][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022317s)
+[2020.10.03-11.43.03:405][728]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.10.03-11.43.03:409][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-11.43.03:409][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-11.43.03:409][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-11.43.03:409][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-11.43.03:409][728]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-11.43.03:409][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-11.43.03:409][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-11.43.03:410][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-11.43.03:410][728]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-11.43.03:410][728]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-11.43.03:414][728]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-11.43.03:414][728]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-11.43.03:450][728]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio)
+[2020.10.03-11.43.03:450][728]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-11.43.03:450][728]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-11.43.03:450][728]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-11.43.03:451][728]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-11.43.03:471][728]LogInit: FAudioDevice initialized.
+[2020.10.03-11.43.03:486][728]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.03-11.43.03:489][728]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.03-17.13.03
+[2020.10.03-11.43.03:490][728]LogWorld: Bringing up level for play took: 0.002333
+[2020.10.03-11.43.03:490][728]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.10.03-11.43.03:493][728]PIE: Server logged in
+[2020.10.03-11.43.03:494][728]PIE: Play in editor total start time 0.209 seconds.
+[2020.10.03-11.43.14:268][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.43.14:268][487]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.43.14:269][487]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-11.43.14:269][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.43.14:283][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-11.43.14:289][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.43.14:331][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.43.14:360][487]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002530A11E340), frame # 10487
+[2020.10.03-11.43.14:360][487]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000252B912D000), frame # 10487
+[2020.10.03-11.43.14:366][487]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2020.10.03-11.43.14:414][488]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.10.03-11.43.35:865][634]BlueprintLog: New page: Compile Robot
+[2020.10.03-11.43.35:986][634]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.10.03-11.43.36:690][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.43.36:736][666]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Robot5D5BF1894D4EBFECD67D39A878E35DE4.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.43.36:755][666]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.43.36:755][666]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.43.38:777][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.43.38:861][795]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/RobotB3B6E5C0418F2F7D06002C8A344446CC.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.43.38:880][795]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.43.38:880][795]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.44.04:277][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.44.04:322][426]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan4B53157C47D112FD4C8948B0B4BEE046.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.44.04:340][426]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.44.04:340][426]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.44.12:373][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.44.12:415][912]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan3317D1304FD7E3D1D18444AE1278FD5A.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.44.12:433][912]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.44.12:433][912]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.44.13:363][970]BlueprintLog: New page: Compile Becan
+[2020.10.03-11.44.13:468][970]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
+[2020.10.03-11.44.13:694][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.44.13:735][976]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan423D8AD54E1E0AA46098689293D47E89.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.44.13:751][976]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.44.13:751][976]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.45.03:379][960]BlueprintLog: New page: Compile Becan
+[2020.10.03-11.45.03:480][960]LogUObjectHash: Compacting FUObjectHashTables data took   6.89ms
+[2020.10.03-11.45.04:075][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.45.04:118][985]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan732BEBCD42BF099A7E1F9B84CBE908FA.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.45.04:137][985]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.45.04:137][985]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.45.05:411][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.45.05:452][ 50]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan2DE636BC46C58AD6EBCA598DD73573DC.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.45.05:467][ 50]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.45.05:468][ 50]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.45.06:051][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2020.10.03-11.45.06:099][ 79]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMapA81495074C560B70997D22848B9C4415.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.10.03-11.45.06:642][ 79]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMap_BuiltData901960AC43997FE7F734D98F28AD2CA6.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.10.03-11.45.06:665][ 79]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.03-11.45.06:665][ 79]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.10.03-11.45.06:665][ 79]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.10.03-11.45.14:362][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.45.14:404][544]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan082551F64B84EE25A92E25A9BCCAA65B.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.45.14:420][544]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.45.14:420][544]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.46.46:600][699]LogEditorTransaction: Undo Create Pin Link
+[2020.10.03-11.46.51:733][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.46.51:898][945]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/RobotEC5387EC46E1A6DF3D14158ED639BC2F.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.46.51:924][945]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.46.51:924][945]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.46.53:222][ 14]BlueprintLog: New page: Compile Robot
+[2020.10.03-11.46.53:348][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   6.93ms
+[2020.10.03-11.46.54:062][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.46.54:110][ 40]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Robot9CF171B84EB1FF90D6ACE1B9B72F05BE.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.46.54:126][ 40]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.46.54:126][ 40]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.47.53:588][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.47.53:635][220]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/RobotEBC83EC842ADD7980D45B0BE0A281A73.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.47.53:656][220]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.47.53:656][220]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.47.54:662][268]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2020.10.03-11.47.54:712][268]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMap4FFC7D94468DFBEBDEF9D6A4A99BE2E7.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.10.03-11.47.55:107][268]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMap_BuiltData9F26511342F81217FE7F0D8AA4697FCC.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.10.03-11.47.55:129][268]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.03-11.47.55:130][268]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.10.03-11.47.55:130][268]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.10.03-11.48.14:917][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.48.14:968][338]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan5D56CA544E668674D867D2A0C7178E49.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.48.14:984][338]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.48.14:984][338]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.48.22:776][787]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-11.48.22:798][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-11.48.22:798][787]PIE: New page: PIE session: ThirdPersonExampleMap (03-Oct-2020, 10:48:22 pm)
+[2020.10.03-11.48.22:837][787]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.48.22:853][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015792s)
+[2020.10.03-11.48.22:856][787]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.03-11.48.22:856][787]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002530A4BFE00), frame # 27787
+[2020.10.03-11.48.22:856][787]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002532FFAE480), frame # 27787
+[2020.10.03-11.48.22:857][787]LogPlayLevel: PIE: World Init took: (0.003812s)
+[2020.10.03-11.48.22:857][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019926s)
+[2020.10.03-11.48.22:918][787]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2020.10.03-11.48.22:923][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-11.48.22:923][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-11.48.22:923][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-11.48.22:923][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-11.48.22:923][787]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-11.48.22:924][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-11.48.22:924][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-11.48.22:924][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-11.48.22:925][787]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-11.48.22:925][787]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-11.48.22:929][787]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-11.48.22:929][787]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-11.48.22:966][787]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio)
+[2020.10.03-11.48.22:967][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-11.48.22:967][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-11.48.22:967][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-11.48.22:967][787]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-11.48.22:988][787]LogInit: FAudioDevice initialized.
+[2020.10.03-11.48.22:996][787]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.03-11.48.22:999][787]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.03-17.18.22
+[2020.10.03-11.48.22:999][787]LogWorld: Bringing up level for play took: 0.002449
+[2020.10.03-11.48.23:000][787]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.10.03-11.48.23:003][787]PIE: Server logged in
+[2020.10.03-11.48.23:003][787]PIE: Play in editor total start time 0.207 seconds.
+[2020.10.03-11.48.32:235][353]LogBlueprintUserMessages: [Robot_C_0] Stop
+[2020.10.03-11.48.32:251][354]LogBlueprintUserMessages: [Robot_C_0] Stop
+[2020.10.03-11.48.32:269][355]LogBlueprintUserMessages: [Robot_C_0] Stop
+[2020.10.03-11.48.33:272][410]LogBlueprintUserMessages: [Robot_C_0] Stop
+[2020.10.03-11.48.33:407][417]LogBlueprintUserMessages: [Robot_C_0] Stop
+[2020.10.03-11.48.33:423][418]LogBlueprintUserMessages: [Robot_C_0] Stop
+[2020.10.03-11.49.09:169][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.49.09:169][355]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.49.09:170][355]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-11.49.09:170][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.49.09:183][355]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-11.49.09:190][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.49.09:231][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.49.09:261][355]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002532FFAE480), frame # 30355
+[2020.10.03-11.49.09:261][355]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002530A4BFE00), frame # 30355
+[2020.10.03-11.49.09:267][355]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2020.10.03-11.49.09:389][356]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.10.03-11.50.54:362][732]BlueprintLog: New page: Compile Robot
+[2020.10.03-11.50.54:477][732]LogUObjectHash: Compacting FUObjectHashTables data took   5.36ms
+[2020.10.03-11.50.56:736][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.50.56:789][842]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/RobotEA2EA0B4455D9006AAFB5A836D5D261A.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.50.56:807][842]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.50.56:807][842]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.51.15:845][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.51.15:901][783]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/RobotB583E7E34A729F10B165B6A0644D0052.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.51.15:922][783]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.51.15:922][783]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.51.25:902][336]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-11.51.25:924][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-11.51.25:924][336]PIE: New page: PIE session: ThirdPersonExampleMap (03-Oct-2020, 10:51:25 pm)
+[2020.10.03-11.51.25:956][336]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.51.25:972][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016168s)
+[2020.10.03-11.51.25:975][336]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.03-11.51.25:975][336]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002531012E400), frame # 37336
+[2020.10.03-11.51.25:976][336]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025302C24CC0), frame # 37336
+[2020.10.03-11.51.25:976][336]LogPlayLevel: PIE: World Init took: (0.003881s)
+[2020.10.03-11.51.25:977][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020406s)
+[2020.10.03-11.51.26:042][336]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2020.10.03-11.51.26:047][336]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-11.51.26:047][336]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-11.51.26:047][336]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-11.51.26:047][336]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-11.51.26:047][336]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-11.51.26:047][336]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-11.51.26:047][336]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-11.51.26:047][336]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-11.51.26:048][336]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-11.51.26:048][336]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-11.51.26:052][336]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-11.51.26:052][336]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-11.51.26:089][336]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio)
+[2020.10.03-11.51.26:089][336]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-11.51.26:089][336]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-11.51.26:089][336]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-11.51.26:090][336]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-11.51.26:110][336]LogInit: FAudioDevice initialized.
+[2020.10.03-11.51.26:121][336]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.03-11.51.26:123][336]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.03-17.21.26
+[2020.10.03-11.51.26:124][336]LogWorld: Bringing up level for play took: 0.002278
+[2020.10.03-11.51.26:124][336]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.10.03-11.51.26:127][336]PIE: Server logged in
+[2020.10.03-11.51.26:128][336]PIE: Play in editor total start time 0.205 seconds.
+[2020.10.03-11.52.20:230][231]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:230][231]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:251][232]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:251][232]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:272][233]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:272][233]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:293][234]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:293][234]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:443][241]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:443][241]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:461][242]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:461][242]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:483][243]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:483][243]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:716][254]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:716][254]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:737][255]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:738][255]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:969][266]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:969][266]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.20:990][267]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.20:990][267]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.52.21:011][268]LogBlueprintUserMessages: [Robot_C_1] Stop
+[2020.10.03-11.52.21:011][268]PIE: Warning: Mobility of /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Becan_2 : DefaultSceneRoot has to be 'Movable' if you'd like to move. 
+[2020.10.03-11.53.18:409][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.53.18:409][368]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.53.18:409][368]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-11.53.18:410][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.53.18:421][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-11.53.18:426][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.53.18:500][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.53.18:501][368]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025302C24CC0), frame # 43368
+[2020.10.03-11.53.18:501][368]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002531012E400), frame # 43368
+[2020.10.03-11.53.18:507][368]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2020.10.03-11.53.18:711][369]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.10.03-11.53.21:132][501]LogSlate: Window 'Message Log' being destroyed
+[2020.10.03-11.53.21:155][501]LogSlate: Window 'Message Log' being destroyed
+[2020.10.03-11.55.20:682][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.55.20:736][719]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan50B0AA544BD0955B251CC68E225D25BC.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.55.20:760][719]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.55.20:760][719]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.55.23:536][864]BlueprintLog: New page: Compile Becan
+[2020.10.03-11.55.23:645][864]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2020.10.03-11.57.43:508][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.57.43:551][998]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Becan305971CA420C8B95C56557A83A2EF82E.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.57.43:573][998]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.57.43:573][998]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.58.21:143][881]BlueprintLog: New page: Compile Robot
+[2020.10.03-11.58.21:276][881]LogUObjectHash: Compacting FUObjectHashTables data took   6.67ms
+[2020.10.03-11.58.43:571][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.58.43:626][989]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Robot31C728C7416D6E0C6BA81B87238CE54F.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.58.43:646][989]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.58.43:646][989]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.58.54:926][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-11.58.54:970][487]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/BecanF8B6B45D4769ECDD0458C68DF66F2111.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-11.58.54:985][487]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-11.58.54:985][487]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-11.59.08:863][193]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-11.59.08:888][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-11.59.08:888][193]PIE: New page: PIE session: ThirdPersonExampleMap (03-Oct-2020, 10:59:08 pm)
+[2020.10.03-11.59.08:917][193]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.59.08:933][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015864s)
+[2020.10.03-11.59.08:936][193]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.03-11.59.08:936][193]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002532E152600), frame # 61193
+[2020.10.03-11.59.08:936][193]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000253109B6700), frame # 61193
+[2020.10.03-11.59.08:937][193]LogPlayLevel: PIE: World Init took: (0.003959s)
+[2020.10.03-11.59.08:937][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020124s)
+[2020.10.03-11.59.09:009][193]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2020.10.03-11.59.09:014][193]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-11.59.09:014][193]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-11.59.09:014][193]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-11.59.09:014][193]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-11.59.09:014][193]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-11.59.09:014][193]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-11.59.09:014][193]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-11.59.09:014][193]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-11.59.09:015][193]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-11.59.09:015][193]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-11.59.09:019][193]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-11.59.09:019][193]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-11.59.09:057][193]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio)
+[2020.10.03-11.59.09:058][193]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-11.59.09:058][193]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-11.59.09:058][193]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-11.59.09:059][193]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-11.59.09:078][193]LogInit: FAudioDevice initialized.
+[2020.10.03-11.59.09:088][193]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.03-11.59.09:091][193]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.03-17.29.09
+[2020.10.03-11.59.09:091][193]LogWorld: Bringing up level for play took: 0.002256
+[2020.10.03-11.59.09:092][193]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.10.03-11.59.09:094][193]PIE: Server logged in
+[2020.10.03-11.59.09:096][193]PIE: Play in editor total start time 0.209 seconds.
+[2020.10.03-11.59.19:414][764]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.21:892][892]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.21:911][893]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.21:930][894]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.21:949][895]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.21:969][896]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.22:491][923]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.22:510][924]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.24:835][ 45]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.24:854][ 46]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.24:873][ 47]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.24:893][ 48]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.24:912][ 49]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:060][161]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:079][162]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:098][163]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:118][164]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:137][165]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:156][166]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:175][167]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:194][168]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:213][169]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:233][170]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:252][171]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:271][172]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:291][173]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:310][174]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:329][175]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:348][176]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:368][177]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:387][178]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:408][179]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:425][180]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:445][181]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:464][182]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:483][183]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:503][184]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:523][185]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:542][186]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:561][187]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:581][188]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:600][189]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:620][190]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:639][191]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:659][192]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:678][193]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:697][194]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:716][195]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:735][196]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:754][197]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:774][198]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:793][199]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:811][200]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:830][201]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:849][202]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:869][203]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:927][206]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.27:946][207]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:197][220]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:216][221]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:235][222]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:255][223]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:274][224]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:293][225]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:312][226]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:331][227]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:351][228]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:370][229]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:390][230]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:409][231]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:428][232]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:448][233]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:467][234]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:486][235]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:506][236]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:525][237]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:544][238]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:563][239]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:583][240]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:602][241]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:621][242]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:641][243]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:659][244]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:679][245]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:699][246]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:718][247]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:738][248]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:756][249]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.28:776][250]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.29:948][311]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.29:967][312]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.30:659][348]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.30:697][350]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.30:754][353]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.30:793][355]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.30:851][358]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.30:870][359]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.32:732][456]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.32:751][457]LogBlueprintUserMessages: [Robot_C_0] Move to Becan
+[2020.10.03-11.59.33:188][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.59.33:188][478]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-11.59.33:188][478]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-11.59.33:188][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.59.33:208][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-11.59.33:213][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-11.59.33:283][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-11.59.33:284][478]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000253109B6700), frame # 62478
+[2020.10.03-11.59.33:284][478]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002532E152600), frame # 62478
+[2020.10.03-11.59.33:289][478]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.10.03-11.59.33:330][479]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.10.03-11.59.50:070][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.59.50:118][171]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/RobotAF828EA74F9CA9BF519A4AAAFABF848E.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.59.50:136][171]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.59.50:136][171]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-11.59.51:969][262]BlueprintLog: New page: Compile Robot
+[2020.10.03-11.59.52:078][262]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.10.03-11.59.52:790][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-11.59.52:835][287]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/RobotA38496B74A8FFF51CC20F29C264BA9FE.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-11.59.52:853][287]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-11.59.52:853][287]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-12.00.01:407][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-12.00.01:455][714]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/Robot829A5BAF48C5A8E88945F99B2AFA8CAB.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-12.00.01:475][714]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-12.00.01:476][714]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-12.00.02:745][779]BlueprintLog: New page: Compile Robot
+[2020.10.03-12.00.02:853][779]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2020.10.03-12.00.03:591][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Robot" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset" SILENT=true
+[2020.10.03-12.00.03:636][806]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/RobotE9A3CB404E86906CEAB84F85B3819874.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Robot.uasset'
+[2020.10.03-12.00.03:651][806]AssetCheck: New page: Asset Save: Robot
+[2020.10.03-12.00.03:651][806]LogContentValidation: Display: Validating Blueprint /Game/Robot/Robot.Robot
+[2020.10.03-12.00.36:411][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Robot/Becan" FILE="../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset" SILENT=true
+[2020.10.03-12.00.36:463][438]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/BecanAC78511740B089E0DD6F3F8A319100C9.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/Robot/Becan.uasset'
+[2020.10.03-12.00.36:481][438]AssetCheck: New page: Asset Save: Becan
+[2020.10.03-12.00.36:481][438]LogContentValidation: Display: Validating Blueprint /Game/Robot/Becan.Becan
+[2020.10.03-12.00.37:643][491]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2020.10.03-12.00.37:703][491]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMap8E6890914033A14373C2DC8BFAE2E91B.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.10.03-12.00.38:145][491]LogSavePackage: Moving '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMap_BuiltDataB6302701463E78500B35B7B31EDB3448.tmp' to '../../../../../../Users/Nandita/Documents/Unreal Projects/SimpleRobotDemo_BP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.10.03-12.00.38:169][491]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.03-12.00.38:169][491]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.10.03-12.00.38:169][491]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.10.03-12.00.40:502][603]BlueprintLog: New page: Compile Becan
+[2020.10.03-12.00.40:615][603]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2020.10.03-12.00.44:497][814]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.03-12.00.44:519][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.03-12.00.44:519][814]PIE: New page: PIE session: ThirdPersonExampleMap (03-Oct-2020, 11:00:44 pm)
+[2020.10.03-12.00.44:546][814]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-12.00.44:562][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014992s)
+[2020.10.03-12.00.44:564][814]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.03-12.00.44:565][814]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002530BCED000), frame # 65814
+[2020.10.03-12.00.44:565][814]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000252B8E34F40), frame # 65814
+[2020.10.03-12.00.44:565][814]LogPlayLevel: PIE: World Init took: (0.003388s)
+[2020.10.03-12.00.44:565][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018763s)
+[2020.10.03-12.00.44:631][814]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2020.10.03-12.00.44:634][814]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.03-12.00.44:634][814]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.03-12.00.44:634][814]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.03-12.00.44:634][814]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.03-12.00.44:634][814]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.03-12.00.44:634][814]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.03-12.00.44:634][814]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.03-12.00.44:634][814]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.03-12.00.44:635][814]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.03-12.00.44:635][814]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.03-12.00.44:639][814]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.03-12.00.44:639][814]LogAudioMixer: Display: 1: FrontRight
+[2020.10.03-12.00.44:677][814]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio)
+[2020.10.03-12.00.44:677][814]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.03-12.00.44:677][814]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.03-12.00.44:677][814]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.03-12.00.44:678][814]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.03-12.00.44:697][814]LogInit: FAudioDevice initialized.
+[2020.10.03-12.00.44:709][814]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.03-12.00.44:711][814]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.03-17.30.44
+[2020.10.03-12.00.44:711][814]LogWorld: Bringing up level for play took: 0.002226
+[2020.10.03-12.00.44:712][814]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.10.03-12.00.44:714][814]PIE: Server logged in
+[2020.10.03-12.00.44:715][814]PIE: Play in editor total start time 0.198 seconds.
+[2020.10.03-12.00.56:120][436]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:140][437]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:160][438]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:180][439]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:200][440]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:220][441]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:241][442]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:261][443]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:281][444]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:302][445]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:322][446]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:343][447]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:363][448]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:384][449]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:404][450]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:425][451]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:445][452]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:466][453]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:486][454]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:507][455]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:528][456]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:548][457]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:569][458]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:589][459]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:610][460]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:630][461]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:651][462]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:671][463]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:693][464]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:713][465]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:734][466]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:754][467]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:775][468]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:796][469]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:816][470]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:837][471]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:858][472]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:878][473]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:900][474]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:920][475]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:941][476]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:962][477]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.56:982][478]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:003][479]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:025][480]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:045][481]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:066][482]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:087][483]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:108][484]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:129][485]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:149][486]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:170][487]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:191][488]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:212][489]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:233][490]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:254][491]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:276][492]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:297][493]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:316][494]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:338][495]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:359][496]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:380][497]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:401][498]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:422][499]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:443][500]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:464][501]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:484][502]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:506][503]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:527][504]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:548][505]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:571][506]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:591][507]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:612][508]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:633][509]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:654][510]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:675][511]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:698][512]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:719][513]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:740][514]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:761][515]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:783][516]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:804][517]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:825][518]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:847][519]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:868][520]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:888][521]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:908][522]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:928][523]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:948][524]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:968][525]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.57:989][526]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:008][527]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:028][528]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:049][529]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:068][530]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:089][531]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:109][532]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:129][533]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:150][534]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:170][535]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:190][536]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:211][537]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:231][538]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:251][539]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:271][540]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:291][541]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:312][542]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:332][543]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:352][544]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:372][545]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:393][546]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:413][547]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:433][548]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:454][549]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:476][550]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:495][551]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:514][552]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:535][553]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:556][554]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:577][555]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:597][556]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:618][557]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:639][558]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:659][559]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.00.58:679][560]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:247][678]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:270][679]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:294][680]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:318][681]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:341][682]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:365][683]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:389][684]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:412][685]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:436][686]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:460][687]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:484][688]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:508][689]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:531][690]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:555][691]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:578][692]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:602][693]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:626][694]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:649][695]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:673][696]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:697][697]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:721][698]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:747][699]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:770][700]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:795][701]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:820][702]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:845][703]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:869][704]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:894][705]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:919][706]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:944][707]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:969][708]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.01:993][709]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:018][710]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:041][711]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:064][712]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:087][713]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:110][714]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:131][715]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:153][716]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:174][717]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:195][718]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:216][719]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:237][720]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:259][721]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:280][722]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:301][723]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:321][724]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:343][725]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:364][726]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:385][727]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:406][728]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:427][729]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:448][730]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:469][731]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:491][732]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:512][733]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:533][734]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:554][735]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:575][736]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:596][737]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:617][738]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:638][739]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:660][740]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:681][741]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:702][742]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:723][743]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:744][744]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:765][745]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:786][746]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:807][747]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:828][748]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:849][749]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:870][750]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:891][751]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:912][752]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:933][753]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:955][754]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:976][755]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.02:998][756]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:018][757]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:040][758]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:061][759]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:083][760]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:104][761]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:126][762]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:147][763]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:168][764]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:189][765]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:211][766]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:232][767]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:254][768]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:275][769]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:296][770]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:318][771]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:339][772]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:360][773]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:381][774]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:402][775]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:423][776]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:444][777]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:465][778]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:486][779]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:507][780]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:528][781]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:549][782]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:570][783]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:591][784]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:612][785]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:633][786]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:654][787]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:675][788]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:696][789]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:718][790]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:739][791]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:760][792]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:781][793]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:802][794]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:823][795]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:844][796]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:865][797]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:886][798]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:907][799]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:928][800]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:949][801]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:970][802]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.03:992][803]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:013][804]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:034][805]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:055][806]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:078][807]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:098][808]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:119][809]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:140][810]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:162][811]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:183][812]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:206][813]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:226][814]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:248][815]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:269][816]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:290][817]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:313][818]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:333][819]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:355][820]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:376][821]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:398][822]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:420][823]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:441][824]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:463][825]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:484][826]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:506][827]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.04:527][828]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:455][917]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:476][918]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:497][919]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:519][920]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:540][921]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:561][922]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:583][923]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:605][924]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:626][925]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:648][926]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:669][927]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:691][928]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:712][929]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:734][930]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:755][931]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:777][932]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:799][933]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:820][934]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:842][935]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:863][936]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:885][937]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:907][938]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:928][939]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:950][940]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:971][941]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.06:993][942]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:014][943]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:036][944]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:058][945]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:081][946]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:101][947]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:123][948]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:145][949]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:209][950]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:227][951]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:249][952]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:270][953]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:292][954]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:313][955]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:335][956]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:357][957]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:377][958]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:399][959]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:420][960]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:442][961]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:464][962]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:486][963]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:508][964]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:529][965]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:551][966]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:573][967]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:595][968]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:617][969]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:639][970]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:660][971]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:682][972]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:704][973]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:726][974]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:747][975]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:769][976]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:790][977]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:811][978]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:833][979]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:854][980]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:876][981]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:898][982]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:919][983]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:940][984]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:962][985]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.07:984][986]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:006][987]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:027][988]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:049][989]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:071][990]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:093][991]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:114][992]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:137][993]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:158][994]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:180][995]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:201][996]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:223][997]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:245][998]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:266][999]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:288][  0]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:310][  1]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:331][  2]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:353][  3]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:374][  4]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:396][  5]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:417][  6]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:440][  7]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:461][  8]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:482][  9]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:503][ 10]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:524][ 11]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:545][ 12]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:567][ 13]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:588][ 14]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:610][ 15]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:631][ 16]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:652][ 17]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:674][ 18]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:695][ 19]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:717][ 20]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:739][ 21]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:760][ 22]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:781][ 23]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:803][ 24]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:824][ 25]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:846][ 26]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:868][ 27]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:889][ 28]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:910][ 29]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:932][ 30]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:953][ 31]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:975][ 32]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.08:996][ 33]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:018][ 34]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:039][ 35]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:060][ 36]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:082][ 37]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:103][ 38]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:125][ 39]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:147][ 40]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:168][ 41]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:189][ 42]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:211][ 43]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:232][ 44]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.09:254][ 45]LogBlueprintUserMessages: [Becan_2] Move to Becan
+[2020.10.03-12.01.15:329][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-12.01.15:329][318]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.10.03-12.01.15:329][318]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.10.03-12.01.15:330][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-12.01.15:357][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.03-12.01.15:362][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.03-12.01.15:432][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.03-12.01.15:433][318]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000252B8E34F40), frame # 67318
+[2020.10.03-12.01.15:433][318]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002530BCED000), frame # 67318
+[2020.10.03-12.01.15:438][318]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.10.03-12.01.15:475][319]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.10.03-12.01.49:863][986]BlueprintLog: New page: Compile Becan
+[2020.10.03-12.01.49:972][986]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2020.10.03-12.02.48:308][865]BlueprintLog: New page: Compile Becan
+[2020.10.03-12.02.48:416][865]LogUObjectHash: Compacting FUObjectHashTables data took   6.88ms
+[2020.10.03-12.03.22:731][606]LogSlate: Took 0.098473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.10.03-12.04.09:582][890]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.10.03-12.04.12:217][890]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.634 s
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: === Handled ensure: ===
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: 
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: Ensure condition failed: WatchedPin [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Editor/GraphEditor/Private/KismetNodes/KismetNodeInfoContext.cpp] [Line: 92]
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: 
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: Stack: 
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf0b46118 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf09121dc UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf0a6eac6 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf75ac7d9 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf75ac664 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf75aea00 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf75aea00 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf75ac664 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:228][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf75aea00 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58248 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55aab UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f55915 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f54fe4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f57866 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f58357 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6eb9770 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf6f585e4 UE4Editor-SlateCore.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf7379747 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf7379bab UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf73aa669 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf73d0af0 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffcf73d0024 UE4Editor-Slate.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ff7bc108735 UE4Editor.exe!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ff7bc11ba7c UE4Editor.exe!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ff7bc11bb5a UE4Editor.exe!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ff7bc12e31d UE4Editor.exe!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ff7bc13145a UE4Editor.exe!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffd36477bd4 KERNEL32.DLL!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: [Callstack] 0x00007ffd36d8ce51 ntdll.dll!UnknownFunction []
+[2020.10.03-12.04.12:229][890]LogOutputDevice: Error: 
