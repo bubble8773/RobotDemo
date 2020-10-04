@@ -1023,6 +1023,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.04-19.58.23:077][941]AssetCheck: New page: Asset Save: multiple assets
 [2020.10.04-19.58.23:078][941]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2020.10.04-19.58.23:078][941]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+<<<<<<< Updated upstream
 [2020.10.04-20.01.41:318][ 58]Cmd: CLOSE_SLATE_MAINFRAME
 [2020.10.04-20.01.41:375][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
 [2020.10.04-20.01.41:421][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
@@ -1460,3 +1461,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.04-20.01.45:605][ 59]LogD3D11RHI: CleanupD3DDevice
 [2020.10.04-20.01.45:614][ 59]LogExit: Exiting.
 [2020.10.04-20.01.45:715][ 59]Log file closed, 10/05/20 01:31:45
+=======
+>>>>>>> Stashed changes
