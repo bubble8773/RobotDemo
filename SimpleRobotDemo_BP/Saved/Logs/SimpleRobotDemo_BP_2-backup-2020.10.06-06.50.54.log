@@ -1,0 +1,967 @@
+﻿Log file open, 10/06/20 11:51:44
+LogInit: Display: Running engine for game: SimpleRobotDemo_BP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.507678
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamController
+LogPluginManager: Mounting plugin SteamShared
+LogPluginManager: Mounting plugin SteamSockets
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz, GPU: Intel(R) HD Graphics Family
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Listen -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -port=17777 -PktEmulationProfile=Average -windowed -ResX=1280 -ResY=720
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.06-06.21.45:131][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.06-06.21.45:131][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.06-06.21.45:132][  0]LogConfig: Setting CVar [[p.EnableMultiplayerWorldOriginRebasing:1]]
+[2020.10.06-06.21.45:132][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.06-06.21.45:135][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:135][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.06-06.21.45:135][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.06-06.21.45:136][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.06-06.21.45:137][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.06-06.21.45:138][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.06-06.21.45:139][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:139][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.06-06.21.45:140][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.06-06.21.45:140][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:140][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.06-06.21.45:140][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.06-06.21.45:140][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.06-06.21.45:140][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.06-06.21.45:140][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.06-06.21.45:140][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.06-06.21.45:141][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.06-06.21.45:141][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.06-06.21.45:141][  0]LogHAL: Display: Platform has ~ 12 GB [12811657216 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.06-06.21.45:141][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.06-06.21.45:141][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.06-06.21.45:141][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.06-06.21.45:142][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.06-06.21.45:143][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Scalability.ini]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.06-06.21.45:144][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.06-06.21.45:145][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.06-06.21.45:145][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.06-06.21.45:145][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.06-06.21.45:145][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Config/Windows/Engine.ini]
+[2020.10.06-06.21.45:145][  0]LogInit: Computer: DESKTOP-R9OUND7
+[2020.10.06-06.21.45:145][  0]LogInit: User: Nandita
+[2020.10.06-06.21.45:146][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.10.06-06.21.45:146][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.06-06.21.45:146][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2020.10.06-06.21.45:146][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.06-06.21.45:146][  0]LogMemory: Process Physical Memory: 112.60 MB used, 112.61 MB peak
+[2020.10.06-06.21.45:146][  0]LogMemory: Process Virtual Memory: 94.85 MB used, 94.85 MB peak
+[2020.10.06-06.21.45:146][  0]LogMemory: Physical Memory: 5323.20 MB used,  6894.95 MB free, 12218.15 MB total
+[2020.10.06-06.21.45:146][  0]LogMemory: Virtual Memory: 5122.79 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.10.06-06.21.45:158][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.06-06.21.45:225][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.06-06.21.45:225][  0]LogInit: Using OS detected language (en-US).
+[2020.10.06-06.21.45:225][  0]LogInit: Using OS detected locale (en-IN).
+[2020.10.06-06.21.45:231][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.06-06.21.45:926][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.06-06.21.45:927][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.06-06.21.46:026][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.06-06.21.46:026][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.06-06.21.46:026][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.06-06.21.46:026][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.06-06.21.46:301][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M' (Feature Level 11_0)
+[2020.10.06-06.21.46:301][  0]LogD3D11RHI:       2009/0/6109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.06-06.21.46:313][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2020.10.06-06.21.46:313][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.06-06.21.46:321][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.06-06.21.46:321][  0]LogD3D11RHI:       0/0/6109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.06-06.21.46:321][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.06-06.21.46:374][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.06-06.21.46:375][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.06-06.21.46:375][  0]LogWindows: EnumDisplayDevices:
+[2020.10.06-06.21.46:375][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2020.10.06-06.21.46:375][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2020.10.06-06.21.46:376][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2020.10.06-06.21.46:376][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.10.06-06.21.46:376][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M
+[2020.10.06-06.21.46:376][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.10.06-06.21.46:376][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.10.06-06.21.46:376][  0]LogRHI: Texture pool is 1406 MB (70% of 2009 MB)
+[2020.10.06-06.21.46:502][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.10.06-06.21.46:502][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.06-06.21.46:587][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 11)
+[2020.10.06-06.21.47:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.06-06.21.47:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.06-06.21.47:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.06-06.21.47:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.06-06.21.47:717][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.06-06.21.47:739][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.06-06.21.47:878][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Intermediate/Shaders/WorkingDirectory/11428/).
+[2020.10.06-06.21.47:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nandita/AppData/Local/Temp/UnrealShaderWorkingDir/F28F736E4669DB94DC5F719E2F384308/'.
+[2020.10.06-06.21.47:879][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.06-06.21.47:879][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.06-06.21.47:879][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.06-06.21.50:726][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.06-06.21.50:883][  0]LogDerivedDataCache: Loaded boot cache 0.16s 76MB C:/Users/Nandita/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.06-06.21.50:883][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nandita/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.06-06.21.50:883][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.06-06.21.50:883][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.06-06.21.50:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.06-06.21.50:884][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.06-06.21.50:911][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.06-06.21.50:911][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.06-06.21.50:911][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.06-06.21.50:918][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nandita/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.06-06.21.50:918][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.06-06.21.50:918][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.06-06.21.51:084][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.06-06.21.51:086][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.06-06.21.51:444][  0]LogInit: Using OS detected language (en-US).
+[2020.10.06-06.21.51:444][  0]LogInit: Using OS detected locale (en-IN).
+[2020.10.06-06.21.51:444][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.10.06-06.21.51:444][  0]LogTextLocalizationManager: No localization for 'en-IN' exists, so 'en' will be used for the locale.
+[2020.10.06-06.21.51:445][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.10.06-06.21.51:445][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.10.06-06.21.51:448][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2020.10.06-06.21.51:464][  0]LogAssetRegistry: FAssetRegistry took 0.0092 seconds to start up
+[2020.10.06-06.21.52:196][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.001767 seconds
+[2020.10.06-06.21.52:399][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.06-06.21.52:816][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.06-06.21.52:816][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.06-06.21.52:816][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.06-06.21.52:816][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.06-06.21.52:816][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.06-06.21.52:858][  0]LogNetVersion: SimpleRobotDemo_BP 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3713622887)
+[2020.10.06-06.21.53:821][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002290095CB80), frame # 0
+[2020.10.06-06.21.53:821][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000229017D56C0), frame # 0
+[2020.10.06-06.21.53:824][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229017BFC00), frame # 0
+[2020.10.06-06.21.54:111][  0]LogCollectionManager: Loaded 0 collections in 0.003972 seconds
+[2020.10.06-06.21.54:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Collections/' took 0.00s
+[2020.10.06-06.21.54:119][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.10.06-06.21.54:285][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Content/Developers/Nandita/Collections/' took 0.00s
+[2020.10.06-06.21.54:285][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Content/Collections/' took 0.00s
+[2020.10.06-06.21.54:285][  0]LogMoviePlayer: Initializing movie player
+[2020.10.06-06.21.54:711][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.06-06.21.54:722][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.06-06.21.54:814][  0]LogSteamShared: Display: Loading Steam SDK 1.47
+[2020.10.06-06.21.54:817][  0]LogSteamShared: Steam SDK Loaded!
+[2020.10.06-06.21.54:852][  0]SourceControl: Source control is disabled
+[2020.10.06-06.21.54:853][  0]SourceControl: Source control is disabled
+[2020.10.06-06.21.54:871][  0]SourceControl: Source control is disabled
+[2020.10.06-06.21.55:236][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.06-06.21.55:274][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.06-06.21.55:274][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.06-06.21.55:428][  0]LogOcInput: OculusInput pre-init called
+[2020.10.06-06.21.55:435][  0]LogSockets: SteamSockets: Disabled due to no Steam OSS running.
+[2020.10.06-06.21.55:474][  0]LogUObjectArray: 19078 objects as part of root set at end of initial load.
+[2020.10.06-06.21.55:474][  0]LogUObjectAllocator: 5037456 out of 0 bytes used by permanent object pool.
+[2020.10.06-06.21.55:475][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.06-06.21.55:617][  0]LogEngine: Initializing Engine...
+[2020.10.06-06.21.55:621][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.06-06.21.55:621][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.06-06.21.55:626][  0]LogGameplayTags: NetworkGameplayTagNodeIndexHash is e125c222
+[2020.10.06-06.21.55:626][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.10.06-06.21.55:908][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.06-06.21.55:920][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.06-06.21.55:920][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.06-06.21.55:920][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.06-06.21.55:920][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.06-06.21.55:920][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.06-06.21.55:920][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.06-06.21.55:920][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.06-06.21.55:920][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.06-06.21.55:922][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.06-06.21.55:922][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.06-06.21.56:005][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.06-06.21.56:005][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.06-06.21.56:164][  0]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio)
+[2020.10.06-06.21.56:185][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.06-06.21.56:190][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.06-06.21.56:190][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.06-06.21.56:193][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.06-06.21.56:195][  0]LogInit: FAudioDevice initialized.
+[2020.10.06-06.21.56:203][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.06-06.21.56:204][  0]LogInit: Texture streaming: Enabled
+[2020.10.06-06.21.56:423][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.06-06.21.56:424][  0]LogInit: Display: Game Engine Initialized.
+[2020.10.06-06.21.56:425][  0]LogGameplayTags: NetworkGameplayTagNodeIndexHash is e125c222
+[2020.10.06-06.21.56:425][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2020.10.06-06.21.56:504][  0]LogInit: Display: Starting Game.
+[2020.10.06-06.21.56:504][  0]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player?Listen
+[2020.10.06-06.21.56:505][  0]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=Player?Listen
+[2020.10.06-06.21.56:505][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.10.06-06.21.56:508][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.06-06.21.56:508][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.06-06.21.56:542][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.10.06-06.21.57:234][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.10.06-06.21.57:234][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000229044D5600), frame # 0
+[2020.10.06-06.21.57:234][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022904A93100), frame # 0
+[2020.10.06-06.21.57:240][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.10.06-06.21.57:241][  0]LogNet: Applying EmulationProfile Average
+[2020.10.06-06.21.57:242][  0]LogNet: Applying EmulationProfile Average
+[2020.10.06-06.21.57:242][  0]LogNet: Applying EmulationProfile Average
+[2020.10.06-06.21.57:242][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.10.06-06.21.57:242][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.10.06-06.21.57:243][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.10.06-06.21.57:243][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.10.06-06.21.57:243][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.06-06.21.57:243][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.10.06-06.21.57:253][  0]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.10.06-11.51.57
+[2020.10.06-06.21.57:254][  0]LogWorld: Bringing up level for play took: 0.009910
+[2020.10.06-06.21.57:255][  0]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.06-06.21.57:258][  0]LogLoad: Took 0.752940 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
+[2020.10.06-06.21.57:299][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.10.06-06.21.57:299][  0]LogLoad: (Engine Initialization) Total time: 20.69 seconds
+[2020.10.06-06.21.57:299][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.06-06.21.57:417][  0]LogSteamShared: Warning: SteamAPI failed to initialize, conditions not met.
+[2020.10.06-06.21.57:417][  0]LogSteamController: SteamController is not available
+[2020.10.06-06.21.57:428][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.06-06.21.57:445][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.06-06.21.59:395][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2020.10.06-06.21.59:638][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2020.10.06-06.21.59:732][  1]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61689
+[2020.10.06-06.21.59:732][  1]LogHandshake: SendConnectChallenge. Timestamp: 2.358701, Cookie: 154230037177032203036044152111044246123204036192199248044210
+[2020.10.06-06.21.59:732][  1]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61689
+[2020.10.06-06.21.59:732][  1]LogHandshake: SendConnectChallenge. Timestamp: 2.358701, Cookie: 154230037177032203036044152111044246123204036192199248044210
+[2020.10.06-06.21.59:732][  1]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61689
+[2020.10.06-06.21.59:733][  1]LogHandshake: SendConnectChallenge. Timestamp: 2.358701, Cookie: 154230037177032203036044152111044246123204036192199248044210
+[2020.10.06-06.21.59:746][  2]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61689
+[2020.10.06-06.21.59:747][  2]LogHandshake: SendChallengeAck. InCookie: 154230037177032203036044152111044246123204036192199248044210
+[2020.10.06-06.21.59:747][  2]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61689
+[2020.10.06-06.21.59:747][  2]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.10.06-06.21.59:747][  2]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 10/06/20 11:51:59, [UNetConnection] RemoteAddr: 127.0.0.1:61689, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.06-06.21.59:747][  2]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61689, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.10.06-06.21.59:748][  2]LogHandshake: Received unexpected post-connect handshake packet - resending ack for LastChallengeSuccessAddress 127.0.0.1:61689 and LastCookie 154230037177032203036044152111044246123204036192199248044210.
+[2020.10.06-06.21.59:748][  2]LogHandshake: SendChallengeAck. InCookie: 154230037177032203036044152111044246123204036192199248044210
+[2020.10.06-06.21.59:748][  2]LogHandshake: Received unexpected post-connect handshake packet - resending ack for LastChallengeSuccessAddress 127.0.0.1:61689 and LastCookie 154230037177032203036044152111044246123204036192199248044210.
+[2020.10.06-06.21.59:748][  2]LogHandshake: SendChallengeAck. InCookie: 154230037177032203036044152111044246123204036192199248044210
+[2020.10.06-06.22.00:033][  4]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2020.10.06-06.22.00:033][  4]LogNet: Remote platform little endian=1
+[2020.10.06-06.22.00:033][  4]LogNet: This platform little endian=1
+[2020.10.06-06.22.00:033][  4]LogNetVersion: SimpleRobotDemo_BP 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 733007726)
+[2020.10.06-06.22.00:393][  7]LogNet: Login request: ?Name=DESKTOP-R9OUND7-25AC4CC9435271ACF2389D9138C04836 userId: NULL:DESKTOP-R9OUND7-25AC4CC9435271ACF2389D9138C04836 platform: NULL
+[2020.10.06-06.22.00:725][ 10]LogNet: Client netspeed is 10000
+[2020.10.06-06.22.01:953][ 21]LogNet: Join request: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap?Name=DESKTOP-R9OUND7-25AC4CC9435271ACF2389D9138C04836?SplitscreenCount=1
+[2020.10.06-06.22.01:954][ 21]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.10.06-06.22.01:960][ 21]LogNet: Join succeeded: DESKTOP-R9OUND7-25AC
+[2020.10.06-06.22.10:280][ 58]LogNetPlayerMovement: Warning: ServerMove: TimeStamp expired: 0.168411, CurrentTimeStamp: 2.712062, Character: ThirdPersonCharacter_C_0
+[2020.10.06-06.22.10:504][ 59]LogNetPlayerMovement: Warning: ServerMove: TimeStamp expired: 0.437523, CurrentTimeStamp: 2.712062, Character: ThirdPersonCharacter_C_0
+[2020.10.06-06.22.10:808][ 60]LogNetPlayerMovement: Warning: ServerMove: TimeStamp expired: 0.567702, CurrentTimeStamp: 2.712062, Character: ThirdPersonCharacter_C_0
+[2020.10.06-06.22.10:956][ 61]LogNetPlayerMovement: Warning: ServerMove: TimeStamp expired: 0.806384, CurrentTimeStamp: 2.712062, Character: ThirdPersonCharacter_C_0
+[2020.10.06-06.22.10:956][ 61]LogNetPlayerMovement: Warning: ServerMove: TimeStamp expired: 0.987769, CurrentTimeStamp: 2.712062, Character: ThirdPersonCharacter_C_0
+[2020.10.06-06.22.11:364][ 63]LogNetPlayerMovement: Warning: ServerMove: TimeStamp expired: 1.239497, CurrentTimeStamp: 2.712062, Character: ThirdPersonCharacter_C_0
+[2020.10.06-06.22.11:364][ 63]LogNetPlayerMovement: Warning: ServerMove: TimeStamp expired: 1.406893, CurrentTimeStamp: 2.712062, Character: ThirdPersonCharacter_C_0
+[2020.10.06-06.22.11:807][ 65]LogNetPlayerMovement: Warning: ServerMove: TimeStamp expired: 1.675353, CurrentTimeStamp: 2.712062, Character: ThirdPersonCharacter_C_0
+[2020.10.06-06.23.08:310][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.30.25:244][886]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.32.49:973][414]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.28:080][992]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.30:062][997]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.36:408][ 13]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.39:769][ 22]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.42:116][ 28]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.47:054][ 41]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.52:019][ 53]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.52:626][ 54]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.53:887][ 57]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.54:864][ 59]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.57:541][ 66]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.35.59:052][ 70]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.04:726][ 86]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.08:154][ 95]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.11:002][102]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.12:358][105]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.17:255][117]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.21:133][128]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.22:685][132]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.26:105][141]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.26:614][142]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.28:037][145]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.30:771][152]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.32:731][156]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.34:166][160]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.35:293][162]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.46:015][192]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.52:549][210]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.53:195][211]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.54:458][215]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.36.55:046][216]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.00:091][228]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.02:158][234]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.04:895][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.08:759][251]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.18:934][279]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.20:886][283]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.21:445][284]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.26:444][297]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.29:407][306]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.33:044][316]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.40:209][336]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.43:653][344]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.46:013][351]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.49:947][361]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.51:377][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.52:430][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.54:321][371]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.56:286][376]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.37.58:484][381]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.07:021][406]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.09:294][411]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.12:862][421]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.13:428][422]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.18:701][435]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.24:365][451]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.25:982][455]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.26:509][456]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.28:077][460]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.30:695][466]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.32:032][469]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.35:164][476]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.37:340][482]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.40:141][488]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.41:905][492]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.47:559][507]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.52:112][519]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.55:372][527]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.38.58:866][536]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.01:852][543]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.10:193][565]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.16:021][581]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.19:168][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.21:798][596]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.29:991][619]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.35:491][633]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.39:097][642]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.40:151][644]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.40:658][645]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.43:937][653]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.44:589][654]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.46:290][658]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.48:985][665]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.51:887][672]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.39.55:831][683]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.00:633][698]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.01:252][699]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.09:612][721]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.15:552][737]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.16:596][739]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.17:163][740]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.18:092][742]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.18:757][743]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.20:414][747]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.21:017][748]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.21:579][749]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.22:591][751]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.23:775][754]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.24:282][755]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.25:898][759]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.29:155][767]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.31:062][772]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.33:980][780]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.36:323][786]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.43:653][805]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.49:316][820]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.52:670][828]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.53:224][829]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.58:406][842]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.40.58:926][843]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.05:776][861]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.06:334][862]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.06:855][863]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.08:465][868]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.10:255][873]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.18:658][895]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.19:244][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.21:327][901]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.28:154][918]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.34:949][937]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.36:229][940]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.38:309][945]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.42:715][956]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.44:246][959]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.46:385][964]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.48:256][969]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.49:411][972]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.54:937][986]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.57:664][993]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.41.58:794][996]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.01:515][  4]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.02:144][  5]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.04:245][ 10]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.04:986][ 12]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.05:973][ 14]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.09:912][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.10:798][ 25]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.14:685][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.17:097][ 42]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.20:464][ 53]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.22:246][ 57]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.26:883][ 70]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.30:499][ 79]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.31:114][ 80]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.34:373][ 89]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.34:895][ 90]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.36:481][ 94]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.39:488][101]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.44:456][113]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.45:190][114]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.47:290][119]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.52:052][133]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.59:005][151]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.42.59:516][152]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.01:310][156]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.02:366][158]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.02:965][159]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.03:522][160]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.04:164][161]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.04:681][162]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.14:536][188]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.25:511][217]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.29:429][227]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.37:084][247]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.39:423][253]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.43:292][263]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.46:346][271]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.49:825][280]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.50:633][282]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.43.51:330][283]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.01:815][313]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.03:959][318]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.04:498][319]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.05:420][321]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.09:994][334]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.10:509][335]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.11:875][338]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.17:193][352]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.21:992][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.25:259][373]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.30:123][387]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.41:656][418]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.42:634][420]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.48:006][434]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.56:137][458]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.57:177][460]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.57:715][461]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.44.59:017][464]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.03:653][478]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.04:905][481]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.08:086][490]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.21:916][527]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.26:402][538]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.27:628][541]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.29:794][546]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.33:341][554]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.33:857][555]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.49:021][596]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.51:195][602]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.45.56:581][616]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.06:898][644]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.08:505][648]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.09:382][650]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.09:915][651]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.12:436][657]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.13:183][659]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.15:237][664]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.16:245][666]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.19:604][676]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.21:673][681]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.23:799][686]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.24:307][687]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.25:119][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.25:985][691]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.29:045][698]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.29:608][699]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.33:324][709]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.34:203][711]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.36:431][716]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.39:522][724]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.40:434][726]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.44:936][738]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.53:067][759]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.56:333][767]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.46.58:186][772]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.05:524][794]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.11:851][810]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.12:416][811]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.13:289][813]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.13:979][814]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.14:574][815]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.21:918][834]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.30:037][855]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.32:373][861]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.34:587][866]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.35:139][867]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.41:845][886]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.46:767][900]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.48:751][905]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.51:071][911]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.55:359][923]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.47.55:868][924]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.01:851][941]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.05:639][951]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.13:857][974]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.16:102][979]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.25:431][  5]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.26:252][  7]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.28:006][ 11]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.31:438][ 19]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.33:200][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.34:212][ 25]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.36:188][ 30]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.38:182][ 35]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.43:193][ 49]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.44:247][ 51]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.46:516][ 57]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.47:047][ 58]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.47:969][ 60]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.49:316][ 63]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.53:053][ 72]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.54:376][ 76]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.55:735][ 79]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.48.56:568][ 80]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.00:229][ 89]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.03:033][ 96]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.05:697][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.07:529][107]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.09:237][111]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.12:470][120]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.13:238][122]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.13:790][123]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.15:878][128]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.18:239][134]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.19:562][137]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.20:134][138]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.23:110][146]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.27:293][158]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.32:064][172]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.34:307][177]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.35:870][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.36:402][182]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.37:699][185]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.40:142][191]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.42:645][197]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.44:149][200]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.45:623][203]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.50:222][214]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.52:855][221]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.49.56:596][231]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.01:922][245]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.18:485][289]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.19:695][292]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.20:232][293]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.22:010][298]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.27:095][310]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.34:555][330]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.35:386][332]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.36:415][334]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.38:218][338]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.39:229][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.40:253][342]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.41:292][345]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.44:622][353]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.46:350][357]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.49:832][365]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.53:665][374]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.10.06-06.50.54:290][375]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
