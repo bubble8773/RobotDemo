@@ -1070,3 +1070,7 @@ Continue: Skip saving this asset only.
 [2020.10.06-13.51.45:756][285]LogSavePackage: Moving '../../../../../../Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/RobotNew8CF737D542C3F4DA0B1EC09C3498BC93.tmp' to '../../../../../../Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Content/Robot/RobotNew.uasset'
 [2020.10.06-13.51.45:777][285]AssetCheck: New page: Asset Save: RobotNew
 [2020.10.06-13.51.45:777][285]LogContentValidation: Display: Validating Blueprint /Game/Robot/RobotNew.RobotNew
+[2020.10.06-13.58.31:589][695]LogUObjectHash: Compacting FUObjectHashTables data took   8.85ms
+[2020.10.06-13.58.31:918][695]LogSavePackage: Moving '../../../../../../Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/ThirdPersonExampleMap_Auto33DF66E11414BDE31E3950EA8218857B7.tmp' to '../../../../../../Users/Nandita/Desktop/Demo2020/NewUnrealDemo/RobotDemo/SimpleRobotDemo_BP/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2020.10.06-13.58.31:932][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.467
+[2020.10.06-13.58.31:932][695]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.467
